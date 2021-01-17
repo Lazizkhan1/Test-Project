@@ -3,7 +3,7 @@ import turtle
 forw = 1
 
 turt = turtle. Turtle()
-turt.speed(0)
+turt.speed(90)
 
 while True:
     turt.forward(forw)

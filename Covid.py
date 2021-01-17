@@ -9,6 +9,7 @@ b = 0
 while True:
     t.forward(a)
     t.right(b)
+    t.speed(50)
     a+=3
     b+=1
     if b ==210:
