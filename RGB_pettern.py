@@ -1,5 +1,11 @@
 import turtle
-turtle.setup(width=600, height=500)
+s=turtle.Turtle()
+s.shape("blank")
+wn=turtle.Screen()
+wn.bgcolor("#e6e6e6")
+s.pensize(5)
+wn.setup(width=0.99,height=0.95,startx=None,starty=-10)
+wn.title('Lazizkhan')
 turtle.reset()
 turtle.hideturtle()
 turtle.speed(0)

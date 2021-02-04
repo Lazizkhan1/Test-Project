@@ -2,23 +2,23 @@ from PIL import Image, ImageDraw, ImageFont
 
 import math
 
-chars = ".o$@B%8&WM#*oahkbdpqwqpeoiuhdajkzccunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`' "[::-1]
+chars = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "[::-1]
 # chars = "#Wo- "[::-1]
 charArray = list(chars)
 charLength = len(charArray)
-interval = charLength/450
+interval = charLength/256
 
-scaleFactor = 0.12
+scaleFactor = 0.9
 
-oneCharWidth = 18
-oneCharHeight = 12
+oneCharWidth = 10
+oneCharHeight = 18
 
 def getChar(inputInt):
     return charArray[math.floor(inputInt*interval)]
 
 text_file = open("Output.txt", "w")
 
-im = Image.open("car2.jpg")
+im = Image.open("Test-Project\Ascii art\pic2ascii\car1.jpg")
 
 fnt = ImageFont.truetype('C:\\Windows\\Fonts\\lucon.ttf', 15)
 
