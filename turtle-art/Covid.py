@@ -12,7 +12,7 @@ while True:
     t.speed(50)
     a+=3
     b+=1
-    if b ==210:
+    if b ==175:
         break
     t.hideturtle()
 

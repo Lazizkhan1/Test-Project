@@ -1,7 +1,7 @@
 import turtle as a
 import math
 wn=a.Screen()
-wn.setup(width=7680, height=4320)
+wn.setup(width=1920, height=1080)
 wn.title('Lazizkhan')
 
 def rectangle(color):
